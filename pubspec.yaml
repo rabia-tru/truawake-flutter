@@ -1,0 +1,60 @@
+name: truawake1
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Camera access for driver monitoring
+  camera: ^0.10.5+5
+
+  # Audio playback for alarms
+  audioplayers: ^5.2.1
+
+  # Vibration for alerts
+  vibration: ^1.8.4
+
+  # Charts for drowsiness trends
+  fl_chart: ^0.65.0
+
+  # Local storage for settings
+  shared_preferences: ^2.2.2
+
+  # HTTP requests for API calls
+  http: ^1.1.2
+
+  # Sensors for driving analysis
+  sensors_plus: ^4.0.2
+
+  # Location for environment context
+  geolocator: ^10.1.0
+
+  # Push notifications
+  flutter_local_notifications: ^16.3.0
+
+  # Secure storage for API keys
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets, uncomment and list them here:
+  # assets:
+  #   - assets/images/
+  #   - assets/sounds/
